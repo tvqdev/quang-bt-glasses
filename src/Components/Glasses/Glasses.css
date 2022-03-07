@@ -1,0 +1,70 @@
+.main{
+    height: 100%;
+    background: url(../../../public/img/background.jpg);
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.content{
+    text-align: center;
+}
+.title{
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.24);
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.model{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.model img{
+    border-radius: 10px;
+    width: 65%;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+.glasses-list {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+.glasses-item{
+    padding: 10px;
+}
+.glasses-item img {
+    border: 1px solid black;
+    width: 100%;
+    padding: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+.glasses-card{
+    position: relative;
+    top: -90%;
+    left: 17.5%;
+    width: 65%;
+    height: 90%;
+}
+.glasses-info{
+    border-radius: 0 0 10px 10px;
+    padding-top: 10px;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(232 112 11 / 40%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.glasses-card img{
+    width: 35%;
+    opacity: 0.9;
+    box-shadow: none;
+}
+.glasses-model{
+    position: absolute;
+    width: 154%;
+    left: -27%;
+    top: 17%;
+}
